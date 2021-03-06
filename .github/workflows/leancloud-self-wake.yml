@@ -6,8 +6,8 @@ on:
   watch:
     types: [started]
   schedule:
-    - cron: '*/14 23-23 * * ?'    
-    - cron: '*/14 0-15 * * ?'     
+    - cron: '*/13 23-23 * * ?'    
+    - cron: '*/13 0-15 * * ?'     
 
 jobs:
   curl-my-site:
